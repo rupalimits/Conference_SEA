@@ -18,11 +18,19 @@ body {
   backface-visibility: hidden;
   overflow-x: hidden;
 }
-
-h1, h2, h3, h4 {
-  font-size: 36px;
-  font-weight: 700;
+ h2, h3, h4 {
+  font-size: 10px;
+  font-weight: 20;
   font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 150px;
 }
 
 a {
@@ -45,8 +53,24 @@ p {
   font-family: 'Lato', sans-serif;
   margin: 0px;
   font-size: 14px;
+  color: black;
 }
 
+.wow2 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  color:black;
+}
+
+.wow3 {
+  font-size: 20px;
+  font-weight: 20;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#fff;
+  padding-top: 180px;
+  /*margin-top: 50px;*/
+}
 ul, ol {
   list-style: outside none none;
   margin: 0;
@@ -55,6 +79,11 @@ ul, ol {
 
 ul li, ol li {
   list-style: none;
+}
+
+.w1{
+  opacity: 1;
+
 }
 
 .hero-heading {
@@ -2131,14 +2160,21 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide .carousel-item .carousel-caption .heading {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 250;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  /*margin-top: 10px;*/
+}
+#main-slide .carousel-item .carousel-caption .heading2 {
+  font-size: 20px;
+  font-weight: 500;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: 30px;
+  margin-top: 50px;
 }
-
 #main-slide .carousel-item .carousel-caption p {
   font-size: 20px;
 }
